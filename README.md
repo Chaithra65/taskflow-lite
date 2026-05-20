@@ -49,7 +49,9 @@ The project demonstrates DOM manipulation, modular JavaScript architecture, loca
 - CSS3
 - JavaScript (ES6 Modules)
 - localStorage API
-- Flexbox & Responsive Design
+- Flexbox
+- CSS Grid
+- Responsive Design
 - DOM Manipulation
 
 ---
@@ -63,13 +65,13 @@ taskflow-lite/
 ├── README.md
 │
 ├── styles/
-│ ├── main.css
-│ └── utilities.css
+│   ├── main.css
+│   └── utilities.css
 │
 └── modules/
-├── storage.js
-├── render.js
-└── validation.js
+    ├── storage.js
+    ├── render.js
+    └── validation.js
 
 ---
 
@@ -107,7 +109,45 @@ The application is optimized for:
 https://github.com/Chaithra65/taskflow-lite
 
 ### Live Demo
-(Add your Netlify link here)
+https://taskflow-litee.netlify.app/
+
+---
+
+## How to Run the Project
+
+1. Download or clone the repository
+
+2. Open the project folder in VS Code
+
+3. Install Live Server extension
+
+4. Right click index.html
+
+5. Click "Open with Live Server"
+
+---
+
+## Key Learning Outcomes
+
+- Modular JavaScript architecture
+- Browser storage handling
+- Event delegation
+- Dynamic DOM rendering
+- Responsive UI development
+- Modern frontend practices
+- Form validation techniques
+- localStorage persistence
+
+---
+
+## Future Enhancements
+
+- Drag and drop task sorting
+- Due date support
+- Task categories
+- Search functionality
+- Firebase/MongoDB integration
+- User authentication
 
 ---
 
@@ -117,11 +157,6 @@ Chaithra
 
 ---
 
-## Learning Outcomes
+## Conclusion
 
-- Modular JavaScript architecture
-- Browser storage handling
-- Event delegation
-- Dynamic rendering
-- Responsive UI development
-- Modern frontend practices
+TaskFlow Lite is a production-ready frontend task management application that demonstrates strong understanding of JavaScript fundamentals, browser APIs, localStorage handling, responsive design, and modular application architecture.
