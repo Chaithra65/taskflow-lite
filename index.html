@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow Lite</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/utilities.css">
+</head>
+<body>
+
+    <main class="app">
+
+        <header class="hero-header">
+            <div class="hero-content">
+                <span class="badge">TaskFlow Lite</span>
+
+                <h1>Organize Your Day with Smart Task Management</h1>
+
+                <p>
+                    A responsive client-side task manager built using vanilla JavaScript,
+                    localStorage, DOM manipulation, and modern UI design.
+                </p>
+
+                <button id="theme-toggle">🌙 Dark Mode</button>
+            </div>
+        </header>
+
+        <section class="task-panel">
+
+            <form id="task-form" class="task-form">
+                <h2>Add New Task</h2>
+
+                <div class="input-group">
+                    <input type="text" id="task-input" placeholder="Example: Complete JavaScript assignment">
+                    <button type="submit">+ Add Task</button>
+                </div>
+
+                <p id="error-message"></p>
+            </form>
+
+            <section class="dashboard">
+                <div class="stat-card">
+                    <h3 id="task-counter">0 tasks</h3>
+                    <p>Task Summary</p>
+                </div>
+            </section>
+
+            <section class="filters">
+                <button class="filter-btn active" data-filter="all">All Tasks</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </section>
+
+            <ul id="task-list"></ul>
+
+        </section>
+
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
